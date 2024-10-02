@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Container, HeroTitle } from './HeroStyled' // Importando os styled-components
+import { Form, Container, HeroTitle } from './HeroStyled'
 
 const Hero = () => (
   <Form>

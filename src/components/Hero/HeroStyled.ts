@@ -30,7 +30,12 @@ export const Form = styled.form`
 // Componente Container
 export const Container = styled.div`
   position: relative;
-  width: 100%; // Para garantir que ocupe toda a largura
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
 `
 
 // Componente Título
@@ -38,7 +43,6 @@ export const HeroTitle = styled.h2`
   color: #eee;
   font-family: Gloock, serif;
   font-size: 48px;
-  margin-left: 100px;
 
   @media (max-width: 768px) {
     font-size: 32px;
